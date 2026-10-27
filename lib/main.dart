@@ -12,7 +12,7 @@ class SpotifyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(390, 848),
+      designSize: const Size(390, 844),
       splitScreenMode: true,
       minTextAdapt: true,
       builder: (context, child) {

@@ -7,7 +7,7 @@ abstract class AppTheme {
     primaryColor: AppColors.primaryColor,
     scaffoldBackgroundColor: AppColors.lightBackground,
     brightness: Brightness.light,
-    fontFamily: 'Montserrat',
+    fontFamily: 'Inter',
     useMaterial3: true,
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
@@ -25,7 +25,7 @@ abstract class AppTheme {
     primaryColor: AppColors.primaryColor,
     scaffoldBackgroundColor: AppColors.darkBackground,
     brightness: Brightness.dark,
-    fontFamily: 'Montserrat',
+    fontFamily: 'Inter',
     useMaterial3: true,
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(

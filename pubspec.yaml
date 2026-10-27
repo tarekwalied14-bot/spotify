@@ -42,7 +42,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.14.4
-  flutter_native_splash: ^2.4.8
+  flutter_native_splash: 2.4.7
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -66,6 +66,7 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/vectors/
   
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -79,17 +80,17 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Montserrat
+    - family: Inter
       fonts:
-        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/bold.ttf
           weight: 700
-        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+        - asset: assets/fonts/extraBold.ttf
           weight: 800
-        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/medium.ttf
           weight: 500
-        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/regular.ttf
           weight: 400
-        - asset: assets/fonts/Montserrat-SemiBold.ttf
+        - asset: assets/fonts/semiBold.ttf
           weight: 600
   
   # For details regarding fonts from package dependencies,
@@ -99,16 +100,16 @@ flutter:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/images/spotif_logo.svg"
+  image_path: "assets/images/spotify_logo.png"
   
 
 #native screen 
 flutter_native_splash:
   color: "#FFFFFF"
-  image: assets/images/spotify_logo_light.svg
+  image: assets/vectors/spotify_logo_light.svg
 
   color_dark: "#121212"
-  image_dark: assets/images/spotify_logo_dark.svg
+  image_dark: assets/vectors/spotify_logo_dark.svg
 
   android: true
   ios: true
