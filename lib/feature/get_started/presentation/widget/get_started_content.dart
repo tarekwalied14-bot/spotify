@@ -1,4 +1,4 @@
-import 'package:clean_arch_training/core/configs/assets/app_vectors.dart';
+import 'package:clean_arch_training/core/configs/asset/app_vectors.dart';
 import 'package:clean_arch_training/core/utils/app_style.dart';
 import 'package:clean_arch_training/core/widget/primary_button.dart';
 import 'package:flutter/material.dart';

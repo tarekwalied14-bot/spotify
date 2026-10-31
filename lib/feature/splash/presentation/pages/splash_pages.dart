@@ -1,4 +1,4 @@
-import 'package:clean_arch_training/core/configs/assets/app_vectors.dart';
+import 'package:clean_arch_training/core/configs/asset/app_vectors.dart';
 import 'package:clean_arch_training/core/configs/routing/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
